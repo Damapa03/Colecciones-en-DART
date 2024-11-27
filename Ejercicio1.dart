@@ -2,7 +2,6 @@
 
 void main(){
   var genres = <String>{};
-  var num =1;
   while(true){
     print("1. Introducir generos\n2. Ver generos\n3. Salir");
     var num = int.parse(stdin.readLineSync()!);
